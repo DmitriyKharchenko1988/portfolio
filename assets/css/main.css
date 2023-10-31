@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    color: black;
 }
 
 .container {
@@ -17,7 +18,8 @@ body {
     display: none !important;
 }
 
-     /*Header*/
+                /*HEADER*/
+
 
 .header {
     position: relative;
@@ -71,7 +73,8 @@ body {
     height: 60px;
 }
 
-         /*portfolio*/
+                  /*PORTFOLIO*/
+
 
 .portfolio {
     padding-top: 80px;
@@ -95,9 +98,20 @@ body {
 
 .card {
     margin-bottom: 30px;
-    padding: 20px;
     max-width: 540px;
     box-shadow: 0 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+.card-link {
+    padding: 20px;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.card-link:hover{
+    color: rgba(39, 91, 236);
+    transition: color 0.6s;
 }
 
 .card:last-child,
@@ -110,29 +124,33 @@ body {
     width: 100%;
 }
 
+.card-img:hover {
+    transform: scale(1.08);
+    transition: transform 0.8s;
+}
+
 .card-title{
     margin: 0 0 13px;
     font-weight: 600;
     font-size: 24px;
     line-height: 130%;
-    color: black;
 }
 
 .card p {
     margin: 0;
     font-size: 16px;
     line-height: 130%;
-    color: black;
-
 }
 
-     /*Footer*/
+                /*FOOTER*/
+
 
 .footer {
     padding-top: 45px;
     padding-bottom: 130px;
     background : #144279;
-    color: #FFFFFF;
+    color: #6890C8 ;
+    text-transform: uppercase;
 }
 
 .footer-row {
@@ -143,6 +161,7 @@ body {
 .footer-col {
     max-width: 350px;
     flex-grow: 1;
+
 }
 
 .footer-copyright {
@@ -151,8 +170,8 @@ body {
 }
 
 .footer-copyright-name {
-    font-weight: 700;
-    font-size: 28px;
+    font-weight: 600;
+    font-size: 25px;
     margin-bottom: 15px;
 }
 
@@ -168,6 +187,11 @@ body {
     line-height: 1.3;
 }
 
+.img-hover:hover {
+    background-color: white;
+    transition: all 0.7s ease-in;
+}
+
 .footer-icons-row {
     display: flex;
     align-items: center;
@@ -180,7 +204,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 
-    border: 3px solid #FFFFFF;
+    border: 3px solid #aebedc;
     border-radius: 50px;
 
     color: #FFFFFF;
@@ -189,6 +213,12 @@ body {
     font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
+    transition: all 0.5s ease-in;
+}
+
+.footer-button:hover {
+    background-color: #779ee3;
+    color: #fdfafa;
 }
 
 .footer-contacts p {
@@ -196,4 +226,59 @@ body {
     font-size: 16px;
     line-height: 1.3;
     color: #6890C8 ;
+}
+
+                 /*PROJECT*/
+
+
+.project {
+    padding: 80px 0 120px 0;
+    text-align: center;
+}
+
+.project-header {
+    margin: 0 0 40px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 1.3;
+}
+
+.project-img {
+    margin-bottom: 70px;
+}
+
+.project-description {
+    margin: 0 auto 60px;
+    max-width: 730px;
+}
+
+.project-description p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.project-btn-back {
+    display: inline-block;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border: 3px solid #8bbee3;
+    border-radius: 50px;
+
+    color: #44a1e0;
+    line-height: 54px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+}
+
+.project-btn-back:hover {
+    background-color:  #44a1e0;
+    color: #FFFFFF;
+
 }
