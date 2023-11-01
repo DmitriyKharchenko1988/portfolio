@@ -8,10 +8,16 @@ body {
     color: black;
 }
 
+/*img {*/
+/*    max-width: 100%;*/
+/*}*/
+
 .container {
-    max-width: 1110px;
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .none {
@@ -81,7 +87,7 @@ body {
     padding-bottom: 115px;
 }
 
-.section-header {
+.portfolio-header {
     margin: 0 0 70px;
     font-weight: 700;
     font-size: 46px;
@@ -150,7 +156,6 @@ body {
     padding-bottom: 130px;
     background : #144279;
     color: #6890C8 ;
-    text-transform: uppercase;
 }
 
 .footer-row {
@@ -280,5 +285,4 @@ body {
 .project-btn-back:hover {
     background-color:  #44a1e0;
     color: #FFFFFF;
-
 }
