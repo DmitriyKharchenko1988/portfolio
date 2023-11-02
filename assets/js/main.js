@@ -3,3 +3,10 @@ $(window).on('load', function (){
         bgColor: '#B59466'
     });
 })
+
+function fallback(video)
+{
+    let img = video.querySelector('img');
+    if (img)
+        video.parentNode.replaceChild(img, video);
+}
