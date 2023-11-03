@@ -4,8 +4,3 @@ $(window).on('load', function () {
     });
 })
 
-video.addEventListener('click', function () {
-    video.play();
-}, false);
-$(video).click();
-video.play();
