@@ -25,6 +25,11 @@
 
 
 @media (max-width: 760px) {
+
+    .header-video {
+        margin: 30px;
+    }
+
     .header-title{
         font-size: 32px;
     }
