@@ -51,13 +51,11 @@ img {
 }
 
 .header-video {
-    max-width: 100%;
+    width: 100%;
     height: 100vh;
     position: absolute;
     overflow: hidden;
     z-index: -1;
-
-
 }
 
 .header-title {
@@ -300,4 +298,12 @@ img {
 .project-btn-back:hover {
     background-color: #44a1e0;
     color: #FFFFFF;
+}
+
+.project-slider {
+    background-color: #fddca5;
+}
+
+.project-grid {
+    background-color: #a0ccee;
 }
