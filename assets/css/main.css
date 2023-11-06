@@ -71,12 +71,11 @@ img {
 .header-subtitle {
     margin: 0;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 28px;
     line-height: 150%;
 
     text-align: center;
     letter-spacing: 0.2em;
-    text-transform: uppercase;
     color: #936524;
 }
 
@@ -306,4 +305,12 @@ img {
 
 .project-grid {
     background-color: #a0ccee;
+}
+
+.project-bootstrap {
+    background-color: #6f7172;
+}
+
+.project-movie {
+    background-color: #e3d7d7;
 }
